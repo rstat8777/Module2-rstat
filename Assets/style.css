@@ -1,0 +1,26 @@
+.header1{
+    width:100%;
+    height: 120px; 
+    background-color: blue; 
+    color: yellow; 
+    position:relative;
+}
+.about{
+position: absolute; 
+margin-left: 70%;
+}
+.contact-me{
+position: absolute;
+margin-left: 80%;
+}
+.github{
+position: absolute; 
+margin-left: 90%;
+color: yellow;
+}
+a{
+    color: yellow;
+}
+a:hover{
+    color:pink;
+}
