@@ -1,26 +1,176 @@
+body{
+    background-color: #1B2F33;
+}
 .header1{
     width:100%;
     height: 120px; 
-    background-color: blue; 
-    color: yellow; 
+    background-color: #28502E; 
+    color: #47682C; 
     position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:5%;
 }
-.about{
+.portfolio{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#about{
 position: absolute; 
 margin-left: 70%;
+color: #47682C;
+font-family:Arial, Helvetica, sans-serif;
 }
 .contact-me{
 position: absolute;
 margin-left: 80%;
+color: #47682C;
+font-family:Arial, Helvetica, sans-serif;
 }
 .github{
 position: absolute; 
 margin-left: 90%;
-color: yellow;
+color: #47682C;
+font-family:Arial, Helvetica, sans-serif;
 }
 a{
-    color: yellow;
+    color: #47682C;
+    font-family:Arial, Helvetica, sans-serif;
 }
 a:hover{
-    color:pink;
+    color:#EF3054;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#about:hover{
+    color:#8C7051;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contact-me:hover{
+    color:#8C7051;
+    font-family:Arial, Helvetica, sans-serif;
+}
+aside{
+    width:80%;
+    background-color: #28502E;
+    height:200px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:5%;
+    margin-left: 5%;
+
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rounded{
+    display: flex;
+    width:170px;
+    height: 170px;
+    display:flex;
+flex-direction: column;
+}
+.flexh2{
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: #47682C;
+    display: flex;
+}
+h1 h2 h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #47682C; 
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 27px;  
+}
+h3{
+    font-size: 20px;
+    
+}
+.footerssection{
+    display: flex;
+    justify-content: space-around;
+}
+.contact2{
+    margin-left:5%;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.picture1{
+display:flex;
+flex-direction: column;
+border: 4px solid #EF3054;
+
+}
+.picture2{
+    display:flex;
+    flex-direction: column;
+    border: 4px solid #EF3054;
+
+}
+.picture3{
+    display:flex;
+    flex-direction: column;
+    border: 4px solid #EF3054;
+}
+.picture4{
+    display:flex;
+    flex-direction: column;
+    border: 4px solid #EF3054;
+}
+.picture5{
+    display:flex;
+    flex-direction: column;
+    border: 4px solid #EF3054;
+}
+.picture6{
+    display:flex;
+    flex-direction: column;
+    border: 4px solid #EF3054;
+}
+.flexh2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.picture1:hover{
+   opacity: 50%;
+}
+.picture2:hover{
+    opacity: 50%;
+}
+.picture3:hover{
+    opacity: 50%;
+}
+.picture4:hover{
+    opacity: 50%;
+}
+.picture5:hover{
+    opacity: 50%;
+}
+.picture6:hover{
+    opacity: 50%;
+}
+footer{
+        width:100%;
+        height: 120px; 
+        background-color: #28502E; 
+        color: #47682C; 
+        position:relative;
+        font-family:Arial, Helvetica, sans-serif;
+        border-radius:5%;
+}
+.headerssection{
+    display: flex;
+    justify-content: space-around;
+}
+.makesmallersecond{
+    font-size: 22px;
 }
